@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>猫カフェ管理者メニュー</title>
+</head>
+<body>
+<div>
+	<h1>管理者メニュー</h1>
+	<p><a href="/kanri/member/">従業員管理</a></p>
+	<p><a href="/kanri/shift/">シフト管理</a></p>
+	<p><a href="/kanri/kintai/">勤怠時間管理</a></p>
+	<p><a href="/kanri/zangyou/">残業申請承認</a></p>
+	<p><a href="kyuyo.php">給与入力・修正</a></p>
+</div>
+
+</body>

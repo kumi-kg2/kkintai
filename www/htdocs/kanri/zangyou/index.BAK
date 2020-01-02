@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>残業管理ページ</title>
+</head>
+<body>
+	<h2>残業管理ページ</h2>
+	<div>
+		<p><a href="forget_kintai.php">残業申請リスト</a></p>
+		<p><a href="zangyou_kanri.php">従業員別残業リスト</a></p>
+	</div>
+</body>

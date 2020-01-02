@@ -1,0 +1,22 @@
+<?php
+	setcookie( "UserName", "test", time()+60*5);
+	var_dump($_COOKIE['UserName']);
+
+?>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>猫カフェ勤怠管理メニュー</title>
+</head>
+<body>
+<div>
+	<h2>勤怠登録</h2>
+		<p><a href="kintai.php">勤怠入力</a></p>
+		<p><a href="shift.php">シフト確認</a></p>
+		<p><a href="zangyou.php">残業申請</a></p>
+		<p><a href="list.php">当日出勤者一覧</a></p>
+	<h2>管理者ページ</h2>
+		<p><a href="/kanri/">管理者メニュー</a></p>
+</div>
+</body>

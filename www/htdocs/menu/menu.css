@@ -1,0 +1,122 @@
+
+* {
+	color: #333;
+
+}
+
+a {
+	 color: #005FFF;
+}
+
+header {
+	height: 60px;
+	width: 100%;
+	padding: 5px;
+	padding-bottom: 5px;
+	background: #f1f8ff;
+}
+
+.kanri_menu a {
+  color: #1A8047;
+}
+
+ul {
+	padding: 0;
+	position: relative;
+	display: inline-block;
+}
+
+.kintai_menu {
+	color: #2d8fdd;
+	border-left: solid 6px #2d8fdd;
+	background: #f1f8ff;
+	margin-bottom: 3px;
+	line-height: 1.5;
+	padding: 0.5em;
+	width: 12em;
+	list-style-type: none!important;
+}
+
+.kanri_menu {
+	color: #29CC72;
+	border-left: solid 6px #29CC72;
+	background: #EEFFE6;
+	margin-bottom: 3px;
+	line-height: 1.5;
+	padding: 0.5em;
+	width: 12em;
+	list-style-type: none!important;
+}
+
+h1 {
+	color: #3366CC;
+	padding-top: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
+}
+h2 {
+	color: #3366CC;
+	margin-top: 16px;
+	margin-bottom: 0px;
+}
+
+.breadcrumbs li{
+	display: inline;
+	color: #3366CC;
+}
+.breadcrumbs li:before {
+	content:" ≫ ";
+}
+
+.breadcrumbs li:first-child:before {
+	content: "";
+}
+table {
+	border-collapse: collapse;
+}
+td, th {
+	border: 1px solid #333333;
+}
+th { 
+	background-color: #A4C6FF;
+	padding: 2px;
+}
+td {
+	text-align: center;
+}
+
+.k_border p{
+	margin: 5px;
+}
+
+.clicked {
+	background-color: #FFAD90;
+}
+
+.mbt {
+	font-size: 14px;
+	font-weight:bold;
+	background: #3366CC;
+	color: #fff;
+	padding: 6px;
+	border-radius: 4px;
+    border-style: none;
+	
+}
+.mbt:hover {
+    background-color: #4775D1;
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+	.kanri_ms {
+		margin: 0px;
+	}
+	
+	table {
+		font-size : 13px;
+	}
+}
+
+

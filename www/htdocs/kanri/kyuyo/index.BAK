@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>給与管理ページ</title>
+</head>
+<body>
+	<h2>給与管理ページ</h2>
+	<div>
+		<p><a href="kyuyo_data.php">給与区分リスト</a></p>
+		<p><a href="/">給与計算</a></p>
+	</div>
+</body>
